@@ -1,0 +1,7 @@
+name: Stark-AI
+author: SolidPangolin
+version: 1.0.0
+dependencies:
+  aiSwapper: ^1.2.0
+  framework: ">=3.0.7"
+  frontend: ">=1.0.13"

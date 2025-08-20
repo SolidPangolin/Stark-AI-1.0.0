@@ -1,0 +1,1617 @@
+meta:
+  version: 1.0.0
+active: true
+config-sparse:
+  modules:
+    aiSwapper:
+      config:
+        menu:
+          contents:
+            suggested-value:
+              sheriff:
+                - name: Stark
+                  root: ucp/plugins/Stark-AI/resources/ai/Stark/
+                  control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+        defaultLanguage:
+          contents:
+            suggested-value: null
+        ai:
+          sheriff:
+            aic:
+              contents:
+                suggested-value:
+                  name: Stark
+                  root: ucp/plugins/Stark-AI/resources/ai/Stark/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Stark
+                  root: ucp/plugins/Stark-AI/resources/ai/Stark/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Stark
+                  root: ucp/plugins/Stark-AI/resources/ai/Stark/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Stark
+                  root: ucp/plugins/Stark-AI/resources/ai/Stark/
+                  active: true
+            binks:
+              contents:
+                suggested-value:
+                  name: Stark
+                  root: ucp/plugins/Stark-AI/resources/ai/Stark/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: Stark
+                  root: ucp/plugins/Stark-AI/resources/ai/Stark/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: Stark
+                  root: ucp/plugins/Stark-AI/resources/ai/Stark/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: Stark
+                  root: ucp/plugins/Stark-AI/resources/ai/Stark/
+                  active: true
+    ucp2-legacy:
+      config:
+        o_onlyai:
+          enabled:
+            contents:
+              suggested-value: true
+  plugins:
+    Ascension-AI-Tournament:
+      config: {}
+    Ascension-Maps:
+      config: {}
+    Stark-AI:
+      config: {}
+  load-order:
+    - extension: Ascension-AI-Tournament
+      version: 3.0.2
+    - extension: Ascension-Maps
+      version: 1.0.1
+    - extension: Stark-AI
+      version: 1.0.0
+config-full:
+  modules:
+    ucp2-legacy:
+      config:
+        ai_access:
+          enabled:
+            contents:
+              value: true
+        ai_assaultswitch:
+          enabled:
+            contents:
+              value: true
+        ai_buywood:
+          enabled:
+            contents:
+              value: true
+        ai_defense:
+          enabled:
+            contents:
+              value: true
+        ai_fix_crusader_archers_pitch:
+          enabled:
+            contents:
+              value: true
+        ai_fix_laddermen_with_enclosed_keep:
+          enabled:
+            contents:
+              value: true
+        ai_nosleep:
+          enabled:
+            contents:
+              value: true
+        ai_rebuild:
+          enabled:
+            contents:
+              value: true
+        ai_tethers:
+          enabled:
+            contents:
+              value: false
+        ai_towerengines:
+          enabled:
+            contents:
+              value: true
+        ai_housing:
+          build_housing:
+            contents:
+              value:
+                enabled: true
+                sliderValue: 5
+          campfire_housing:
+            contents:
+              value:
+                enabled: true
+                sliderValue: 10
+          delete_housing:
+            enabled:
+              contents:
+                value: true
+        ai_resources_rebuy:
+          flour:
+            contents:
+              value:
+                enabled: true
+                sliderValue: 1
+          iron:
+            contents:
+              value:
+                enabled: true
+                sliderValue: 1
+          wood:
+            contents:
+              value:
+                enabled: true
+                sliderValue: 1
+        ai_demolish:
+          ai_demolish_walls:
+            enabled:
+              contents:
+                value: true
+          ai_demolish_trapped:
+            enabled:
+              contents:
+                value: true
+          ai_demolish_eco:
+            enabled:
+              contents:
+                value: true
+        ai_addattack:
+          contents:
+            value:
+              enabled: true
+              choice: relative
+              choices:
+                absolute:
+                  slider: 5
+                relative:
+                  slider: 1
+        ai_attacklimit:
+          contents:
+            value:
+              enabled: true
+              sliderValue: 3000
+        ai_attacktarget:
+          contents:
+            value:
+              enabled: false
+              choice: ""
+        ai_attackwave:
+          contents:
+            value:
+              enabled: true
+              sliderValue: 15
+        ai_recruitinterval:
+          enabled:
+            contents:
+              value: false
+        ai_recruitstate_initialtimer:
+          contents:
+            value:
+              enabled: true
+              sliderValue: 0
+        fix_apple_orchard_build_size:
+          enabled:
+            contents:
+              value: true
+        o_firecooldown:
+          contents:
+            value:
+              enabled: false
+              sliderValue: 2000
+        o_freetrader:
+          enabled:
+            contents:
+              value: false
+        o_healer:
+          enabled:
+            contents:
+              value: true
+        o_responsivegates:
+          enabled:
+            contents:
+              value: true
+        o_shfy:
+          o_shfy_beer:
+            enabled:
+              contents:
+                value: false
+          o_shfy_religion:
+            enabled:
+              contents:
+                value: false
+          o_shfy_peasantspawnrate:
+            enabled:
+              contents:
+                value: false
+          o_shfy_resourcequantity:
+            enabled:
+              contents:
+                value: false
+        u_arabwall:
+          enabled:
+            contents:
+              value: true
+        u_arabxbow:
+          enabled:
+            contents:
+              value: false
+        u_laddermen:
+          enabled:
+            contents:
+              value: false
+        u_spearmen:
+          enabled:
+            contents:
+              value: false
+        u_spearmen_run:
+          enabled:
+            contents:
+              value: false
+        o_fix_map_sending:
+          enabled:
+            contents:
+              value: true
+        o_fix_rapid_deletion_bug:
+          enabled:
+            contents:
+              value: true
+        o_fix_baker_disappear:
+          enabled:
+            contents:
+              value: true
+        o_fix_fletcher_bug:
+          enabled:
+            contents:
+              value: true
+        o_fix_ladderclimb:
+          enabled:
+            contents:
+              value: true
+        o_fix_moat_digging_unit_disappearing:
+          enabled:
+            contents:
+              value: true
+        o_restore_arabian_engineer_speech:
+          enabled:
+            contents:
+              value: true
+        u_fireballistafix:
+          enabled:
+            contents:
+              value: true
+        u_fix_applefarm_blocking:
+          enabled:
+            contents:
+              value: true
+        u_fix_lord_animation_stuck_movement:
+          enabled:
+            contents:
+              value: true
+        u_tanner_fix:
+          enabled:
+            contents:
+              value: true
+        o_change_siege_engine_spawn_position_catapult:
+          enabled:
+            contents:
+              value: false
+        o_increase_path_update_tick_rate:
+          enabled:
+            contents:
+              value: true
+        o_onlyai:
+          enabled:
+            contents:
+              value: true
+        o_override_identity_menu:
+          enabled:
+            contents:
+              value: true
+        o_playercolor:
+          contents:
+            value:
+              enabled: false
+              choice: red
+        o_stop_player_keep_rotation:
+          enabled:
+            contents:
+              value: false
+        o_xtreme:
+          enabled:
+            contents:
+              value: true
+        o_armory_marketplace_weapon_order_fix:
+          enabled:
+            contents:
+              value: false
+        o_fast_placing:
+          enabled:
+            contents:
+              value: true
+        o_default_multiplayer_speed:
+          contents:
+            value:
+              enabled: true
+              sliderValue: 50
+        o_engineertent:
+          enabled:
+            contents:
+              value: true
+        o_gamespeed:
+          enabled:
+            contents:
+              value: true
+        o_keys:
+          enabled:
+            contents:
+              value: true
+        o_moatvisibility:
+          enabled:
+            contents:
+              value: true
+    aicloader:
+      config:
+        failureHandling:
+          contents:
+            value: ERROR_LOG
+    ai-ox-tethers:
+      config:
+        oxtethers:
+          enabled:
+            contents:
+              value: true
+          mode:
+            contents:
+              value: use_aic
+          parameters:
+            disableInitialOxTether:
+              contents:
+                value: true
+            maxOxTethers:
+              contents:
+                value: 10
+            dynamicMaxOxTethers:
+              contents:
+                value: 10
+            maximumOxTethersPerQuarry:
+              contents:
+                value: 4
+            minimumOxTethersPerQuarry:
+              contents:
+                value: 1
+            thresholdStoneLoad:
+              contents:
+                value: 10
+          logic:
+            dynamic:
+              contents:
+                value: true
+          log:
+            contents:
+              value:
+                enabled: false
+                sliderValue: 2
+    graphicsApiReplacer:
+      config:
+        window:
+          type:
+            contents:
+              value: borderlessFullscreen
+          width:
+            contents:
+              value: 1280
+          height:
+            contents:
+              value: 720
+          pos:
+            contents:
+              value: middle
+          continueOutOfFocus:
+            contents:
+              value: pause
+          minimizeOnLostFocus:
+            contents:
+              value: false
+        graphic:
+          api:
+            contents:
+              value: DirectX
+          filterLinear:
+            contents:
+              value: true
+          vsync:
+            contents:
+              value: true
+          waitWithGLFinish:
+            contents:
+              value: false
+          pixFormat:
+            contents:
+              value: argb1555
+          debug:
+            contents:
+              value: none
+        control:
+          clipCursor:
+            contents:
+              value: true
+          scrollActive:
+            contents:
+              value: true
+          margin:
+            contents:
+              value: 0
+          padding:
+            contents:
+              value: 0
+    rebalancer:
+      config:
+        balance_config_file_selector:
+          contents:
+            value: ucp/plugins/Ascension-AI-Balance-*/resources/balance/ascension_ai.json
+    running-units:
+      config:
+        macemen:
+          running:
+            general:
+              contents:
+                value: true
+            ai:
+              contents:
+                value: aic_walk_if_not_defined
+        slingers:
+          running:
+            general:
+              contents:
+                value: true
+            ai:
+              contents:
+                value: aic_walk_if_not_defined
+        slaves:
+          running:
+            general:
+              contents:
+                value: true
+            ai:
+              contents:
+                value: aic_walk_if_not_defined
+        spearmen:
+          running:
+            general:
+              contents:
+                value: true
+            ai:
+              contents:
+                value: aic_run_if_not_defined
+    startResources:
+      config:
+        startGold:
+          normal:
+            majorHumanAdvantage:
+              human:
+                contents:
+                  value: 1000
+              computer:
+                contents:
+                  value: 1000
+            minorHumanAdvantage:
+              human:
+                contents:
+                  value: 500
+              computer:
+                contents:
+                  value: 500
+            noAdvantage:
+              human:
+                contents:
+                  value: 0
+              computer:
+                contents:
+                  value: 0
+            minorComputerAdvantage:
+              human:
+                contents:
+                  value: 0
+              computer:
+                contents:
+                  value: 500
+            majorComputerAdvantage:
+              human:
+                contents:
+                  value: 0
+              computer:
+                contents:
+                  value: 2000
+          crusader:
+            majorHumanAdvantage:
+              human:
+                contents:
+                  value: 1000
+              computer:
+                contents:
+                  value: 1000
+            minorHumanAdvantage:
+              human:
+                contents:
+                  value: 500
+              computer:
+                contents:
+                  value: 500
+            noAdvantage:
+              human:
+                contents:
+                  value: 0
+              computer:
+                contents:
+                  value: 0
+            minorComputerAdvantage:
+              human:
+                contents:
+                  value: 0
+              computer:
+                contents:
+                  value: 500
+            majorComputerAdvantage:
+              human:
+                contents:
+                  value: 0
+              computer:
+                contents:
+                  value: 2000
+          deathmatch:
+            majorHumanAdvantage:
+              human:
+                contents:
+                  value: 1000
+              computer:
+                contents:
+                  value: 1000
+            minorHumanAdvantage:
+              human:
+                contents:
+                  value: 500
+              computer:
+                contents:
+                  value: 500
+            noAdvantage:
+              human:
+                contents:
+                  value: 0
+              computer:
+                contents:
+                  value: 0
+            minorComputerAdvantage:
+              human:
+                contents:
+                  value: 0
+              computer:
+                contents:
+                  value: 500
+            majorComputerAdvantage:
+              human:
+                contents:
+                  value: 0
+              computer:
+                contents:
+                  value: 2000
+        startGoods:
+          normal:
+            wood:
+              contents:
+                value: 120
+            hop:
+              contents:
+                value: 0
+            stone:
+              contents:
+                value: 36
+            iron:
+              contents:
+                value: 5
+            pitch:
+              contents:
+                value: 0
+            wheat:
+              contents:
+                value: 0
+            bread:
+              contents:
+                value: 15
+            cheese:
+              contents:
+                value: 15
+            meat:
+              contents:
+                value: 15
+            fruit:
+              contents:
+                value: 15
+            beer:
+              contents:
+                value: 0
+            flour:
+              contents:
+                value: 0
+            bows:
+              contents:
+                value: 0
+            crossbows:
+              contents:
+                value: 0
+            spears:
+              contents:
+                value: 0
+            pikes:
+              contents:
+                value: 0
+            maces:
+              contents:
+                value: 0
+            swords:
+              contents:
+                value: 0
+            leatherarmor:
+              contents:
+                value: 0
+            metalarmor:
+              contents:
+                value: 0
+          crusader:
+            wood:
+              contents:
+                value: 120
+            hop:
+              contents:
+                value: 0
+            stone:
+              contents:
+                value: 36
+            iron:
+              contents:
+                value: 5
+            pitch:
+              contents:
+                value: 0
+            wheat:
+              contents:
+                value: 0
+            bread:
+              contents:
+                value: 15
+            cheese:
+              contents:
+                value: 15
+            meat:
+              contents:
+                value: 15
+            fruit:
+              contents:
+                value: 15
+            beer:
+              contents:
+                value: 0
+            flour:
+              contents:
+                value: 0
+            bows:
+              contents:
+                value: 0
+            crossbows:
+              contents:
+                value: 0
+            spears:
+              contents:
+                value: 0
+            pikes:
+              contents:
+                value: 0
+            maces:
+              contents:
+                value: 0
+            swords:
+              contents:
+                value: 0
+            leatherarmor:
+              contents:
+                value: 0
+            metalarmor:
+              contents:
+                value: 0
+          deathmatch:
+            wood:
+              contents:
+                value: 240
+            hop:
+              contents:
+                value: 10
+            stone:
+              contents:
+                value: 72
+            iron:
+              contents:
+                value: 10
+            pitch:
+              contents:
+                value: 10
+            wheat:
+              contents:
+                value: 25
+            bread:
+              contents:
+                value: 25
+            cheese:
+              contents:
+                value: 25
+            meat:
+              contents:
+                value: 25
+            fruit:
+              contents:
+                value: 25
+            beer:
+              contents:
+                value: 10
+            flour:
+              contents:
+                value: 10
+            bows:
+              contents:
+                value: 0
+            crossbows:
+              contents:
+                value: 0
+            spears:
+              contents:
+                value: 0
+            pikes:
+              contents:
+                value: 0
+            maces:
+              contents:
+                value: 0
+            swords:
+              contents:
+                value: 0
+            leatherarmor:
+              contents:
+                value: 0
+            metalarmor:
+              contents:
+                value: 0
+        startTroops:
+          crusader:
+            normal:
+              EuropArcher:
+                contents:
+                  value: 5
+              Crossbowman:
+                contents:
+                  value: 0
+              Spearman:
+                contents:
+                  value: 7
+              Pikeman:
+                contents:
+                  value: 0
+              Maceman:
+                contents:
+                  value: 0
+              Swordsman:
+                contents:
+                  value: 0
+              Knight:
+                contents:
+                  value: 0
+              Engineer:
+                contents:
+                  value: 0
+              Monk:
+                contents:
+                  value: 0
+              ArabArcher:
+                contents:
+                  value: 0
+              Slave:
+                contents:
+                  value: 0
+              Slinger:
+                contents:
+                  value: 0
+              Assassin:
+                contents:
+                  value: 0
+              HorseArcher:
+                contents:
+                  value: 0
+              ArabSwordsman:
+                contents:
+                  value: 0
+              FireThrower:
+                contents:
+                  value: 0
+              FireBallista:
+                contents:
+                  value: 0
+            crusader:
+              EuropArcher:
+                contents:
+                  value: 40
+              Crossbowman:
+                contents:
+                  value: 0
+              Spearman:
+                contents:
+                  value: 0
+              Pikeman:
+                contents:
+                  value: 0
+              Maceman:
+                contents:
+                  value: 0
+              Swordsman:
+                contents:
+                  value: 10
+              Knight:
+                contents:
+                  value: 4
+              Engineer:
+                contents:
+                  value: 0
+              Monk:
+                contents:
+                  value: 0
+              ArabArcher:
+                contents:
+                  value: 0
+              Slave:
+                contents:
+                  value: 0
+              Slinger:
+                contents:
+                  value: 0
+              Assassin:
+                contents:
+                  value: 0
+              HorseArcher:
+                contents:
+                  value: 0
+              ArabSwordsman:
+                contents:
+                  value: 0
+              FireThrower:
+                contents:
+                  value: 0
+              FireBallista:
+                contents:
+                  value: 0
+            deathmatch:
+              EuropArcher:
+                contents:
+                  value: 5
+              Crossbowman:
+                contents:
+                  value: 0
+              Spearman:
+                contents:
+                  value: 7
+              Pikeman:
+                contents:
+                  value: 0
+              Maceman:
+                contents:
+                  value: 0
+              Swordsman:
+                contents:
+                  value: 0
+              Knight:
+                contents:
+                  value: 0
+              Engineer:
+                contents:
+                  value: 0
+              Monk:
+                contents:
+                  value: 0
+              ArabArcher:
+                contents:
+                  value: 0
+              Slave:
+                contents:
+                  value: 0
+              Slinger:
+                contents:
+                  value: 0
+              Assassin:
+                contents:
+                  value: 0
+              HorseArcher:
+                contents:
+                  value: 0
+              ArabSwordsman:
+                contents:
+                  value: 0
+              FireThrower:
+                contents:
+                  value: 0
+              FireBallista:
+                contents:
+                  value: 0
+          arabian:
+            normal:
+              EuropArcher:
+                contents:
+                  value: 0
+              Crossbowman:
+                contents:
+                  value: 0
+              Spearman:
+                contents:
+                  value: 0
+              Pikeman:
+                contents:
+                  value: 0
+              Maceman:
+                contents:
+                  value: 0
+              Swordsman:
+                contents:
+                  value: 0
+              Knight:
+                contents:
+                  value: 0
+              Engineer:
+                contents:
+                  value: 0
+              Monk:
+                contents:
+                  value: 0
+              ArabArcher:
+                contents:
+                  value: 6
+              Slave:
+                contents:
+                  value: 6
+              Slinger:
+                contents:
+                  value: 0
+              Assassin:
+                contents:
+                  value: 0
+              HorseArcher:
+                contents:
+                  value: 0
+              ArabSwordsman:
+                contents:
+                  value: 0
+              FireThrower:
+                contents:
+                  value: 0
+              FireBallista:
+                contents:
+                  value: 0
+            crusader:
+              EuropArcher:
+                contents:
+                  value: 0
+              Crossbowman:
+                contents:
+                  value: 0
+              Spearman:
+                contents:
+                  value: 0
+              Pikeman:
+                contents:
+                  value: 0
+              Maceman:
+                contents:
+                  value: 0
+              Swordsman:
+                contents:
+                  value: 0
+              Knight:
+                contents:
+                  value: 0
+              Engineer:
+                contents:
+                  value: 0
+              Monk:
+                contents:
+                  value: 0
+              ArabArcher:
+                contents:
+                  value: 50
+              Slave:
+                contents:
+                  value: 0
+              Slinger:
+                contents:
+                  value: 0
+              Assassin:
+                contents:
+                  value: 0
+              HorseArcher:
+                contents:
+                  value: 0
+              ArabSwordsman:
+                contents:
+                  value: 10
+              FireThrower:
+                contents:
+                  value: 0
+              FireBallista:
+                contents:
+                  value: 0
+            deathmatch:
+              EuropArcher:
+                contents:
+                  value: 0
+              Crossbowman:
+                contents:
+                  value: 0
+              Spearman:
+                contents:
+                  value: 0
+              Pikeman:
+                contents:
+                  value: 0
+              Maceman:
+                contents:
+                  value: 0
+              Swordsman:
+                contents:
+                  value: 0
+              Knight:
+                contents:
+                  value: 0
+              Engineer:
+                contents:
+                  value: 0
+              Monk:
+                contents:
+                  value: 0
+              ArabArcher:
+                contents:
+                  value: 6
+              Slave:
+                contents:
+                  value: 6
+              Slinger:
+                contents:
+                  value: 0
+              Assassin:
+                contents:
+                  value: 0
+              HorseArcher:
+                contents:
+                  value: 0
+              ArabSwordsman:
+                contents:
+                  value: 0
+              FireThrower:
+                contents:
+                  value: 0
+              FireBallista:
+                contents:
+                  value: 0
+    maploader:
+      config:
+        disable-game-maps:
+          contents:
+            value: false
+        disable-user-maps:
+          contents:
+            value: false
+        disable-user-savs:
+          contents:
+            value: false
+        disable-game-maps-extreme:
+          contents:
+            value: false
+        disable-user-maps-extreme:
+          contents:
+            value: false
+        disable-user-savs-extreme:
+          contents:
+            value: false
+        extra-map-directory:
+          contents:
+            value: ucp/plugins/Ascension-AI-Tournament-*/resources/maps
+        extra-map-extreme-directory:
+          contents:
+            value: ucp/plugins/Ascension-Maps-*/resources/mapsExtreme
+    aiSwapper:
+      config:
+        menu:
+          contents:
+            value:
+              sheriff:
+                - name: Stark
+                  root: ucp/plugins/Stark-AI/resources/ai/Stark/
+                  control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+        defaultLanguage:
+          contents:
+            value: null
+        ai:
+          richard:
+            aic:
+              contents:
+                value:
+                  name: ApeX-AI-Richard
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Richard/
+                  active: true
+            aiv:
+              contents:
+                value:
+                  name: ApeX-AI-Richard
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Richard/
+                  active: true
+            lord:
+              contents:
+                value:
+                  name: ApeX-AI-Richard
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Richard/
+                  active: true
+            startTroops:
+              contents:
+                value:
+                  name: ApeX-AI-Richard
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Richard/
+                  active: true
+          snake:
+            aic:
+              contents:
+                value:
+                  name: ApeX-AI-Snake
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Snake/
+                  active: true
+            aiv:
+              contents:
+                value:
+                  name: ApeX-AI-Snake
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Snake/
+                  active: true
+            lord:
+              contents:
+                value:
+                  name: ApeX-AI-Snake
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Snake/
+                  active: true
+            startTroops:
+              contents:
+                value:
+                  name: ApeX-AI-Snake
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Snake/
+                  active: true
+          rat:
+            binks:
+              contents:
+                value:
+                  name: Savine
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Savine/
+                  active: true
+            speech:
+              contents:
+                value:
+                  name: Savine
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Savine/
+                  active: true
+            lines:
+              contents:
+                value:
+                  name: Savine
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Savine/
+                  active: true
+            portrait:
+              contents:
+                value:
+                  name: Savine
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Savine/
+                  active: true
+            aic:
+              contents:
+                value:
+                  name: Savine
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Savine/
+                  active: true
+            aiv:
+              contents:
+                value:
+                  name: Savine
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Savine/
+                  active: true
+            lord:
+              contents:
+                value:
+                  name: Savine
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Savine/
+                  active: true
+            startTroops:
+              contents:
+                value:
+                  name: Savine
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Savine/
+                  active: true
+          pig:
+            binks:
+              contents:
+                value:
+                  name: Hyäne
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Hyaene/
+                  active: true
+            speech:
+              contents:
+                value:
+                  name: Hyäne
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Hyaene/
+                  active: true
+            lines:
+              contents:
+                value:
+                  name: Hyäne
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Hyaene/
+                  active: true
+            portrait:
+              contents:
+                value:
+                  name: Hyäne
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Hyaene/
+                  active: true
+            aic:
+              contents:
+                value:
+                  name: Hyäne
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Hyaene/
+                  active: true
+            aiv:
+              contents:
+                value:
+                  name: Hyäne
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Hyaene/
+                  active: true
+            lord:
+              contents:
+                value:
+                  name: Hyäne
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Hyaene/
+                  active: true
+            startTroops:
+              contents:
+                value:
+                  name: Hyäne
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Hyaene/
+                  active: true
+          wolf:
+            binks:
+              contents:
+                value:
+                  name: Emira
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Emira/
+                  active: true
+            speech:
+              contents:
+                value:
+                  name: Emira
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Emira/
+                  active: true
+            lines:
+              contents:
+                value:
+                  name: Emira
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Emira/
+                  active: true
+            portrait:
+              contents:
+                value:
+                  name: Emira
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Emira/
+                  active: true
+            aic:
+              contents:
+                value:
+                  name: Emira
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Emira/
+                  active: true
+            aiv:
+              contents:
+                value:
+                  name: Emira
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Emira/
+                  active: true
+            lord:
+              contents:
+                value:
+                  name: Emira
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Emira/
+                  active: true
+            startTroops:
+              contents:
+                value:
+                  name: Emira
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Emira/
+                  active: true
+          saladin:
+            binks:
+              contents:
+                value:
+                  name: Jeanne d'Arc
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Jeanne/
+                  active: true
+            speech:
+              contents:
+                value:
+                  name: Jeanne d'Arc
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Jeanne/
+                  active: true
+            lines:
+              contents:
+                value:
+                  name: Jeanne d'Arc
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Jeanne/
+                  active: true
+            portrait:
+              contents:
+                value:
+                  name: Jeanne d'Arc
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Jeanne/
+                  active: true
+            aic:
+              contents:
+                value:
+                  name: Jeanne d'Arc
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Jeanne/
+                  active: true
+            aiv:
+              contents:
+                value:
+                  name: Jeanne d'Arc
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Jeanne/
+                  active: true
+            lord:
+              contents:
+                value:
+                  name: Jeanne d'Arc
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Jeanne/
+                  active: true
+            startTroops:
+              contents:
+                value:
+                  name: Jeanne d'Arc
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Jeanne/
+                  active: true
+          caliph:
+            binks:
+              contents:
+                value:
+                  name: Kirito Kun
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Kirito/
+                  active: true
+            speech:
+              contents:
+                value:
+                  name: Kirito Kun
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Kirito/
+                  active: true
+            lines:
+              contents:
+                value:
+                  name: Kirito Kun
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Kirito/
+                  active: true
+            portrait:
+              contents:
+                value:
+                  name: Kirito Kun
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Kirito/
+                  active: true
+            aic:
+              contents:
+                value:
+                  name: Kirito Kun
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Kirito/
+                  active: true
+            aiv:
+              contents:
+                value:
+                  name: Kirito Kun
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Kirito/
+                  active: true
+            lord:
+              contents:
+                value:
+                  name: Kirito Kun
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Kirito/
+                  active: true
+            startTroops:
+              contents:
+                value:
+                  name: Kirito Kun
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Kirito/
+                  active: true
+          sultan:
+            binks:
+              contents:
+                value:
+                  name: (no)made
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Nomade/
+                  active: true
+            speech:
+              contents:
+                value:
+                  name: (no)made
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Nomade/
+                  active: true
+            lines:
+              contents:
+                value:
+                  name: (no)made
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Nomade/
+                  active: true
+            portrait:
+              contents:
+                value:
+                  name: (no)made
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Nomade/
+                  active: true
+            aic:
+              contents:
+                value:
+                  name: (no)made
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Nomade/
+                  active: true
+            aiv:
+              contents:
+                value:
+                  name: (no)made
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Nomade/
+                  active: true
+            lord:
+              contents:
+                value:
+                  name: (no)made
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Nomade/
+                  active: true
+            startTroops:
+              contents:
+                value:
+                  name: (no)made
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Nomade/
+                  active: true
+          sheriff:
+            aic:
+              contents:
+                value:
+                  name: Stark
+                  root: ucp/plugins/Stark-AI/resources/ai/Stark/
+                  active: true
+            aiv:
+              contents:
+                value:
+                  name: Stark
+                  root: ucp/plugins/Stark-AI/resources/ai/Stark/
+                  active: true
+            lord:
+              contents:
+                value:
+                  name: Stark
+                  root: ucp/plugins/Stark-AI/resources/ai/Stark/
+                  active: true
+            startTroops:
+              contents:
+                value:
+                  name: Stark
+                  root: ucp/plugins/Stark-AI/resources/ai/Stark/
+                  active: true
+            binks:
+              contents:
+                value:
+                  name: Stark
+                  root: ucp/plugins/Stark-AI/resources/ai/Stark/
+                  active: true
+            speech:
+              contents:
+                value:
+                  name: Stark
+                  root: ucp/plugins/Stark-AI/resources/ai/Stark/
+                  active: true
+            lines:
+              contents:
+                value:
+                  name: Stark
+                  root: ucp/plugins/Stark-AI/resources/ai/Stark/
+                  active: true
+            portrait:
+              contents:
+                value:
+                  name: Stark
+                  root: ucp/plugins/Stark-AI/resources/ai/Stark/
+                  active: true
+    gmResourceModifier:
+      config: {}
+    textResourceModifier:
+      config: {}
+    winProcHandler:
+      config: {}
+    files:
+      config: {}
+    aivloader:
+      config: {}
+  plugins:
+    Ascension-AI-Balance:
+      config: {}
+    Ascension-AI-Tournament:
+      config: {}
+    Ascension-Maps:
+      config: {}
+    Stark-AI:
+      config: {}
+  load-order:
+    - extension: startResources
+      version: 1.0.1
+    - extension: ucp2-legacy
+      version: 2.15.1
+    - extension: gmResourceModifier
+      version: 0.2.0
+    - extension: textResourceModifier
+      version: 0.3.0
+    - extension: aicloader
+      version: 1.1.2
+    - extension: winProcHandler
+      version: 1.0.0
+    - extension: rebalancer
+      version: 1.1.2
+    - extension: ai-ox-tethers
+      version: 1.0.3
+    - extension: running-units
+      version: 1.0.1
+    - extension: graphicsApiReplacer
+      version: 1.3.0
+    - extension: Ascension-AI-Balance
+      version: 1.1.2
+    - extension: files
+      version: 1.3.0
+    - extension: maploader
+      version: 1.1.0
+    - extension: aivloader
+      version: 1.0.0
+    - extension: aiSwapper
+      version: 1.2.0
+    - extension: Ascension-AI-Tournament
+      version: 3.0.2
+    - extension: Ascension-Maps
+      version: 1.0.1
+    - extension: Stark-AI
+      version: 1.0.0
