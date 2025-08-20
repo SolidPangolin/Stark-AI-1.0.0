@@ -44,7 +44,7 @@ Ducrh das Herunterladen oder Installieren dieses Projektes oder dessen Inhalte n
 Dieses Projekt enthält Audio welche direkt von bestehender Audio aus der Serie "Frieren: Nach dem Ende der Reise" übernommen wurde.
 Besonderer Fokus hier liegt auf der Stimme des Charakters 'Stark'.
 
-Stark wurde in der englischen Version von "Kordan Dash Cruz" gesprochen.
+Stark wurde in der englischen Version von "Jordan Dash Cruz" gesprochen.
 In der deutschen Version wird Stark von "Janek Schächter" gesprochen.
 Bitte ziehe es in Erwägung Sie und Ihre Arbeit noch weiter anzuschauen.
 
