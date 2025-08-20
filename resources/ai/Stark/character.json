@@ -170,7 +170,7 @@
     "AttUnit2": "Crossbowman",
     "AttUnit2Max": 60,
     "AttMaxAssassins": 40,
-    "AttMaxLaddermen": 5,
+    "AttMaxLaddermen": 8,
     "AttMaxTunnelers": 0,
     "AttUnitPatrol": "None",
     "AttUnitPatrolMax": 0,
@@ -203,3 +203,4 @@
   }
 
 }
+
