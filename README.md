@@ -32,7 +32,7 @@ and the overall work of designing the AI.
 - SolidPangolin
 
 
-=
+
 =
 
 
@@ -65,5 +65,5 @@ und die allgemeine Arbeit beim Erstellen der KI.
 - SolidPangolin
 
 
-=
+
 =
