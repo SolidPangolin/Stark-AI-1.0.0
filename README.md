@@ -29,11 +29,11 @@ Thank You for checking out my project.
 It has been quite some work to edit the audio and the video files, thinking of a good incorporation of the character of Stark into the SHC setting,
 and the overall work of designing the AI.
 
-- SolidPangolin
+> SolidPangolin
 
 
 
-=
+
 
 
 [de]
@@ -62,8 +62,8 @@ Vilen Dank für das Interesse an meinem Projekt.
 Es war einiges an Arbeit die Audio und Video Dateien zu bearbeiten, an ein gutes Integrieren des Charakters von Stark in die SHC Umgebung zu denken
 und die allgemeine Arbeit beim Erstellen der KI.
 
-- SolidPangolin
+> SolidPangolin
 
 
 
-=
+
